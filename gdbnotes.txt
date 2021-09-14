@@ -1,0 +1,8 @@
+gdb filename
+run
+break main
+list
+step
+next
+gdb --batch --ex run --ex bt --ex q --args ./filename
+
